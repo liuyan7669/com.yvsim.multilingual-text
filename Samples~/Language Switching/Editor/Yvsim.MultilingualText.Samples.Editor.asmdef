@@ -1,0 +1,11 @@
+{
+  "name": "Yvsim.MultilingualText.Samples.Editor",
+  "references": [
+    "Yvsim.MultilingualText",
+    "Yvsim.MultilingualText.Samples",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

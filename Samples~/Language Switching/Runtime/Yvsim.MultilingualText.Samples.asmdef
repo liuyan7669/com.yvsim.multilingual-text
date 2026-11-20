@@ -1,0 +1,7 @@
+{
+  "name": "Yvsim.MultilingualText.Samples",
+  "references": [
+    "Yvsim.MultilingualText",
+    "UnityEngine.UI"
+  ]
+}

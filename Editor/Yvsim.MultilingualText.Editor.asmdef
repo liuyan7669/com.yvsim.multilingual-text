@@ -1,0 +1,14 @@
+{
+  "name": "Yvsim.MultilingualText.Editor",
+  "rootNamespace": "Yvsim.MultilingualText.Editor",
+  "references": [
+    "Yvsim.MultilingualText",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Yvsim.InspectorGroups.Editor",
+    "Yvsim.InspectorGroups"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Yvsim.MultilingualText",
+  "rootNamespace": "Yvsim.MultilingualText",
+  "references": [
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "Yvsim.InspectorGroups"
+  ]
+}

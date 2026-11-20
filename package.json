@@ -1,0 +1,42 @@
+{
+  "name": "com.yvsim.multilingual-text",
+  "version": "1.0.0",
+  "displayName": "Multilingual Text",
+  "description": "基于 JSON 的多语言文本管理工具，适合界面文案、培训提示和需要运行时切换语言的 Unity 应用。\n\n主要功能：\n1. 按唯一整数 ID 保存各语言完整文本和提示音频路径，提供当前语言、回退语言及语言选择记忆。\n2. 从 StreamingAssets 异步加载配置，支持重新加载、加载状态和完成事件；提供文本与音频路径查询。\n3. 通过监听组件自动刷新同物体的 uGUI Text 或 TMP_Text，响应语言切换和配置加载。\n4. 可视化表格/详情编辑，支持搜索替换、增删复制、数据校验、Undo/Redo 和未保存内容恢复。\n5. 提供配置诊断、词条预览、创建入口，以及使用百度翻译 API 的单记录/整表翻译和取消进度。\n\n使用说明：翻译需配置自己的百度服务凭据；音频只提供路径，不自动加载或播放。字体覆盖和复杂文字排版需另行配置。依赖 Inspector Groups，附带语言切换示例。",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.ugui": "1.0.0",
+    "com.yvsim.inspector-groups": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.audio": "1.0.0"
+  },
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "keywords": [
+    "multilingual",
+    "text",
+    "localization",
+    "tip"
+  ],
+  "samples": [
+    {
+      "displayName": "Language Switching",
+      "description": "导入后通过 Yvsim/示例/Multilingual Text 创建并打开独立示例场景，演示英/法/西语言切换、英语回退、Text 自动刷新和手动查询；生成专用配置，不覆盖正式配置或保存语言偏好。",
+      "path": "Samples~/Language Switching"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.multilingual-text.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.multilingual-text#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.multilingual-text/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.multilingual-text/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.multilingual-text/blob/main/LICENSE.md"
+}
